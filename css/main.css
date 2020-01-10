@@ -7,6 +7,11 @@
 
 body {
   /* Default font family and font color */
+
+  /* Ajout de la police "Poppins" */
+
+    font-family: 'Poppins', sans-serif;
+
 }
 
 p, li, textarea, label, input, select {
@@ -63,3 +68,45 @@ a:hover {
 * Components
 * ----------
 */
+
+.entete {
+  background-color: #fcce00 ; /* Changer la couleur de fond */
+  color : #fff; /* Changer la couleur du texte */
+  text-align: center; /* Changer l'alignement du texte */
+  font-weight: 900 ; /* Changer l'epaisseur de la police */
+  padding-top: 20px; /* Changer la marge intérieur du bloc - Haute */
+  padding-bottom: 80px; /* Changer la marge intérieur du bloc - Bas */
+  padding-right: 0px; /* Changer la marge intérieur du bloc - Droite */
+  padding-left: 0px; /* Changer la marge intérieur du bloc - Gauche */
+  margin-bottom: 64px; /* Changer la marge extérieur au bloc */
+}
+
+.entete_titre {
+  font-size: 88px; /* Changer la taille de police */ 
+  text-transform: uppercase; /* Pour mettre en majuscule automatiquement */ 
+}
+
+.entete_sous-titre {
+  font-size: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
