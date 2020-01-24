@@ -69,27 +69,156 @@ a:hover {
 * ----------
 */
 
-.entete {
-  background-color: #fcce00 ; /* Changer la couleur de fond */
-  color : #fff; /* Changer la couleur du texte */
-  text-align: center; /* Changer l'alignement du texte */
-  font-weight: 900 ; /* Changer l'epaisseur de la police */
-  padding-top: 20px; /* Changer la marge intérieur du bloc - Haute */
-  padding-bottom: 80px; /* Changer la marge intérieur du bloc - Bas */
-  padding-right: 0px; /* Changer la marge intérieur du bloc - Droite */
-  padding-left: 0px; /* Changer la marge intérieur du bloc - Gauche */
-  margin-bottom: 64px; /* Changer la marge extérieur au bloc */
+.rectangle_jaune {
+  background-color: #fcce00; /* Changer la couleur de fond */
+  width: 1440px;
+  height: 128px;
+  opacity: 0.81;
 }
 
-.entete_titre {
+.rectangle_jaune_title {
   font-size: 88px; /* Changer la taille de police */ 
   text-transform: uppercase; /* Pour mettre en majuscule automatiquement */ 
+  text-align: center;
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 13px;
 }
 
-.entete_sous-titre {
+
+.rectangle_orange {
+  background-color: #ff6b00 ; /* Changer la couleur de fond */
+  width:1440px;
+  height: 64px;
+  opacity: 0.81;
+}
+
+.rectangle_orange_title {
   font-size: 38px;
+  text-align: center;
+  color: #fff;
+  margin-top: 6px; /* Changer la marge intérieur du bloc - Haute */
+  margin-bottom: 5px; 
+  font-weight: 900; /* Changer l'epaisseur de la police */
+  padding-top: 6px;
 }
 
+
+.rectangle_rouge {
+  background-color: #e02020 ; /* Changer la couleur de fond */
+  width:1440px;
+  height: 32px;
+  opacity: 0.81;
+  margin-top: 8px;
+} 
+
+
+.its_a_computeur_title {
+  font-size: 40px ; 
+  font-weight: 56px;
+  text-align: center;
+  color : #231f20;
+  font-weight: 900;
+  width: 993px;
+  height: 56px;
+  margin-left: 231px;
+  margin-right: 216px;
+}
+
+
+.bloc1_titre {
+  color: 24px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 640px;
+  height: 33px;
+  padding-left: 48px;
+  padding-right: 33px;
+}
+
+
+.bloc1_paragraphe {
+  color : #231f20;
+  font-size: 16px;
+  text-align: justify;
+  width: 640px;
+  height: 345px;
+  padding-left: 48px;
+}
+
+
+.bloc1_cta {
+  width: 185px;
+  height: 48px;
+  border : solid 4px;
+  border-radius: 15px;
+  color: #fcce00;
+  margin-left: 503px;
+}
+
+.bloc2_image {
+  width: 487px;
+  height: 471px;
+  margin-left: 16px;
+}
+
+
+
+.wrapper{
+  display: grid;
+}
+
+.wrapper_titre {
+  grid-column: 1;
+  color: 24px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 640px;
+  height: 33px;
+  padding-left: 48px;
+  padding-right: 33px;
+}
+
+.wrapper_paragraphe {
+  grid-column: 1;
+  color : #231f20;
+  font-size: 16px;
+  text-align: justify;
+  width: 640px;
+  height: 345px;
+  padding-left: 48px;
+}
+
+.cta {
+  grid-column: 1/2;
+  width: 185px;
+  height: 48px;
+  color: #fcce00;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 15px;
+  margin-left: 503px;
+}
+
+.wrapper_cta {
+  grid-column: 1/2;
+  width: 113px;
+  height: 28px;
+  color: #fcce00;
+  font-size: 20px;
+  margin-left: 539px;
+  margin-right: 68px;
+  text-align: center;
+}
+
+.wrapper_image {
+  grid-column: 2;
+  width: 487px;
+  height: 471px;
+  margin-left: 16px;
+}
 
 
 
