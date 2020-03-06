@@ -129,10 +129,11 @@ a:hover {
 }
 
 
-.container1 {
-  display: flex;
-  /* justify-content: space-around;
-  align-items: center; */
+
+@media screen and (min-width: 740px) {
+ .container1 {
+  display: flex; 
+}
 }
 
 .box1 {
@@ -192,6 +193,7 @@ a:hover {
   background: linear-gradient(to bottom, #FCD72F 50%, #FDE062 50%, 
     #FDE062 75%, #FDEA95 75%, #FDEA95 88%, #FEF5CB 88% );
   margin-bottom: 64px;
+  order: 1;
 }
 
 .box2_image {
@@ -201,13 +203,15 @@ a:hover {
   margin-right: 16px;
   margin-top: 41px;
   mix-blend-mode: darken;
+  order: 2;
 }
 
 
 
-
+@media screen and (min-width: 740px) {
 .container2 {
   display: flex;
+}
 }
 
 .box3 {
@@ -283,7 +287,7 @@ a:hover {
   margin-top: 64px;
 }
 
-
+@media screen and (min-width: 740px) {
 .container3 {
   display: flex;
   width: 1440px;
@@ -292,6 +296,7 @@ a:hover {
     #EC7676 75%, #F2A3A3 75%, #F2A3A3 88%, #F9D2D2 88% );
   margin-top: 64px;
   margin-bottom: 0px;
+}
 }
 
 .box5_title {
@@ -343,7 +348,7 @@ a:hover {
 }
 
 
-
+@media screen and (min-width: 740px) {
 .container4 {
   display: flex;
   width: 1440px;
@@ -352,6 +357,7 @@ a:hover {
     #D276EC 75%, #E1A3F2 75%, #E1A3F2 88%, #F0D2F9 88% );
   margin-top: 0px;
   margin-bottom: 0px;
+}
 }
 
 .box7_title {
@@ -405,7 +411,7 @@ a:hover {
 
 
 
-
+@media screen and (min-width: 740px) {
 .container5 {
   display: flex;
   width: 1440px;
@@ -413,6 +419,7 @@ a:hover {
   background: linear-gradient(to bottom, #7F5BFF 50%, #9F84FF 50%, 
     #9F84FF 75%, #BEACFF 75%, #BEACFF 88%, #DFD6FF 88% );
   margin-top: 0px;
+}
 }
 
 .box9_title {
@@ -479,6 +486,8 @@ a:hover {
   margin-top: 0px;
 }
 
+
+@media screen and (min-width: 740px) {
 .container6 {
   width: 1440px;
   height: 1024px;
@@ -487,6 +496,7 @@ a:hover {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px
+}
 }
 
 .box12_image1 {
@@ -585,7 +595,7 @@ a:hover {
 }
 
 
-
+@media screen and (min-width: 740px) {
 .container7{
   display: flex;
   width: 1440px;
@@ -593,6 +603,7 @@ a:hover {
   background: #231f20;
   color: #fff;
   padding-top: 64px;
+}
 }
 
 
